@@ -1,0 +1,12 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/publish/publish"
+  ],
+
+  "window": {
+    "navigationBarTitleText": "萌宠交易圈",
+    "navigationBarTextStyle": "white",
+    "navigationBarBackgroundColor": "#52b9d1"
+  }
+}
