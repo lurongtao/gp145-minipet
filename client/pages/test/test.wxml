@@ -1,0 +1,13 @@
+<view>
+  <!-- <view class="child">
+    <text>self content.</text>
+  </view> -->
+  <test-component title="{{'hello'}}">
+    <view>
+      <text>from test page {{no}}</text>
+    </view>
+    <view>
+      <text>from test page line two</text>
+    </view>
+  </test-component>
+</view>

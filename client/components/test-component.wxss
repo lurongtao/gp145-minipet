@@ -1,0 +1,6 @@
+/* components/test-component.wxss */
+.parent {
+  color: red;
+}
+
+/* s */

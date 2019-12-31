@@ -1,0 +1,5 @@
+/* client/pages/test/test.wxss */
+
+.child {
+  color: green;
+}

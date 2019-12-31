@@ -1,0 +1,9 @@
+<!--components/test-component.wxml-->
+<!-- <text>components/test-component.wxml</text> -->
+<view class="~child">child externalClass</view>
+<view>{{title}}</view>
+<slot></slot>
+
+<view bindmyevent="handleParentMyEvent">
+  <test-child-component bindmyevent="handleMyEvent" />
+</view>

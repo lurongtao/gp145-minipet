@@ -1,11 +1,11 @@
 {
   "pages": [
+    "pages/test/test",
     "pages/index/index",
     "pages/search/search",
     "pages/detail/detail",
     "pages/publish/publish"
   ],
-
   "window": {
     "navigationBarTitleText": "萌宠交易圈",
     "navigationBarTextStyle": "white",
