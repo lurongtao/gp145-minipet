@@ -2,10 +2,12 @@
   <view class="map">
     <map 
       id="map"
+      markers="{{markers}}"
       show-location
       latitude="{{latitude}}"
       longitude="{{longitude}}"
-      scale="14"
+      bindmarkertap="markertap"
+      scale="16"
     >
       <cover-image
         src="/resources/center.png"
@@ -21,6 +23,6 @@
   </view>
   <view class="nav">
     <view bindtap="handlePubTap">发布</view>
-    <view>搜索</view>
+    <navigator url="/pages/search/search">搜索</navigator>
   </view>
 </view>

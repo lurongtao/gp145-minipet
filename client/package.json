@@ -1,0 +1,12 @@
+{
+  "name": "minipet",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:lurongtao/gp145-minipet.git",
+  "author": "lurongtao <lurongtao@126.com>",
+  "license": "MIT",
+  "dependencies": {
+    "lodash": "^4.17.15",
+    "underscore": "^1.9.1"
+  }
+}

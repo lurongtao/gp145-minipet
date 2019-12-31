@@ -20,7 +20,8 @@
   display: flex;
 }
 
-.nav > view {
+.nav > view,
+.nav > navigator {
   flex: 1;
   text-align: center;
   line-height: 88rpx;
@@ -32,7 +33,7 @@
   
 }
 
-.nav > view:last-child {
+.nav > navigator:last-child {
   background: #52b9d1;
 }
 

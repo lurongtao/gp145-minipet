@@ -1,0 +1,25 @@
+<view class="search-wrap">
+  <view class="search-bar">
+    <input
+      bindinput="handleInput"
+    ></input>
+    <text bindtap="handleSearchButtonTap">搜索</text>
+  </view>
+  <scroll-view 
+    class="result-list"
+    scroll-y
+  >
+    <view 
+      class="list-item"
+      wx:for="{{list}}"
+      wx:key="{{item.id}}"
+    >
+      <view class="list-address">
+        <text>{{item.address}}</text>
+      </view>
+      <view class="list-message">
+        <text>{{item.message}}</text>
+      </view>
+    </view>
+  </scroll-view>
+</view>

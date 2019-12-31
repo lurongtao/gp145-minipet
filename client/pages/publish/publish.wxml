@@ -1,4 +1,7 @@
-<view class="publish-wrap">
+<view 
+  class="publish-wrap"
+  wx:if="{{!isSubmit}}"
+>
   <view class="item">
     <view class="label">
       我的地址
@@ -51,3 +54,7 @@
     >发布信息</button>
   </view>
 </view>
+
+
+<import src="../../template/notice.wxml" />
+<template is="notice" data="{{isSubmit, isSucc}}"></template>
