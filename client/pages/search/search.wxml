@@ -23,3 +23,5 @@
     </view>
   </scroll-view>
 </view>
+
+<!-- <child id="child" /> -->

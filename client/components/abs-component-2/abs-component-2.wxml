@@ -1,0 +1,9 @@
+<!--components/abs-component-2/abs-component-2.wxml-->
+<view>
+<text>components/abs-component-2/abs-component-2.wxml</text>
+</view>
+
+
+<view>
+{{title}}
+</view>

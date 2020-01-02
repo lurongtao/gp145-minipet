@@ -1,9 +1,31 @@
 <!--components/test-component.wxml-->
 <!-- <text>components/test-component.wxml</text> -->
-<view class="~child">child externalClass</view>
+<!-- <view class="~child">child externalClass</view>
 <view>{{title}}</view>
 <slot></slot>
 
 <view bindmyevent="handleParentMyEvent">
-  <test-child-component bindmyevent="handleMyEvent" />
+  <test-child-component title="{{title}}" bindmyevent="handleMyEvent" />
 </view>
+
+<view>
+  <button bindtap="gotoindex">click</button>
+</view>
+
+<view>
+{{JSON.stringify(message)}}
+</view>
+
+<view id="myView">
+myView
+</view>
+
+<view>
+////
+{{_head}}
+////
+</view> -->
+
+<!-- <abs-component title="hello"></abs-component> -->
+
+<test-child-component />

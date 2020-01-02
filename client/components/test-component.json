@@ -1,5 +1,10 @@
 {
   "component": true,
+  "componentGenerics": {
+    "abs-component": {
+      "default": "/components/abs-component-1/abs-component-"
+    }
+  },
   "usingComponents": {
     "test-child-component": "/components/test-child/test-child-componnet"
   }

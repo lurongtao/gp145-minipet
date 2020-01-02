@@ -1,5 +1,7 @@
 {
   "usingComponents": {
-    "test-component": "/components/test-component"
+    "test-component": "/components/test-component",
+    "abs-component-1": "/components/abs-component-1/abs-component-",
+    "abs-component-2": "/components/abs-component-2/abs-component-2"
   }
 }

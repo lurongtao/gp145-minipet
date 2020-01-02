@@ -1,3 +1,7 @@
 <!--components/test-child/test-child-componnet.wxml-->
 <text class="^parent">components/test-child/test-child-componnet.wxml</text>
 <button bindtap="handleTap">click</button>
+
+<view>
+  {{x}}
+</view>
