@@ -1,10 +1,6 @@
 {
   "pages": [
-    "pages/index/index",
-    "pages/test/test",
-    "pages/search/search",
-    "pages/detail/detail",
-    "pages/publish/publish"
+    "pages/index/index"
   ],
   "window": {
     "navigationBarTitleText": "萌宠交易圈",
