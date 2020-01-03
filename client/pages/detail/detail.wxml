@@ -1,0 +1,47 @@
+<view 
+  class="publish-wrap"
+>
+  <view class="item">
+    <view class="label">
+      我的地址
+    </view>
+    <view 
+      class="content"
+    >
+      {{message.address}}
+    </view>
+  </view>
+  <view class="item">
+    <view class="label">
+      类型
+    </view>
+    <view class="content">
+      {{message.type}}
+    </view>
+  </view>
+  <view class="item">
+    <view class="label">
+      说明
+    </view>
+    <view class="content">
+      {{message.message}}
+    </view>
+  </view>
+  <view class="item">
+    <view class="label">
+      联系方式
+    </view>
+    <view class="content">
+      {{message.contact}}
+    </view>
+  </view>
+
+  <view>
+    <button
+      class="button"
+      type="primary"
+      size=""
+      bindtap="handleBackTap"
+    >返回</button>
+  </view>
+</view>

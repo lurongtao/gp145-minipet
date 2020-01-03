@@ -1,3 +1,5 @@
+const app = getApp()
+
 Page({
   data: {
     longitude: 0,
@@ -53,6 +55,8 @@ Page({
   },
 
   markertap(e) {
+    app.setId(e.markerId)
+    console.log(app.id)
     wx.navigateTo({
       url: '/pages/detail/detail?id=' + e.markerId,
     })

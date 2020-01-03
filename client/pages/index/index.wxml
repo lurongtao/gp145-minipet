@@ -1,1 +1,28 @@
-<home />
+<view class="wrap">
+  <view class="map">
+    <map 
+      id="map"
+      markers="{{markers}}"
+      show-location
+      latitude="{{latitude}}"
+      longitude="{{longitude}}"
+      bindmarkertap="markertap"
+      scale="16"
+    >
+      <cover-image
+        src="/resources/center.png"
+        class="cover-center"
+        bindtap="handleCoverTap"
+      ></cover-image>
+      <cover-view
+        class="cover-pin"
+      >
+        <cover-image src="/resources/pin.png" />
+      </cover-view>
+    </map>
+  </view>
+  <view class="nav">
+    <view bindtap="handlePubTap">发布</view>
+    <navigator url="/pages/search/search">搜索</navigator>
+  </view>
+</view>

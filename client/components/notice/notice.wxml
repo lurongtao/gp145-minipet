@@ -1,0 +1,23 @@
+<view 
+  class="notice"
+  wx:if="{{isSubmit}}"
+>
+  <view class="info">
+    <icon
+      type="{{isSucc ? 'success' : 'cancel'}}"
+      size="{{46}}"
+    ></icon>
+    <text>
+      信息发布{{isSucc ? '成功' : '失败'}}！
+    </text>
+  </view>
+
+  <button
+    class="button {{isSucc ? 'back' : 'submit'}}"
+    type="primary"
+    size=""
+    bindtap="handleNoticeTap"
+  >
+    {{isSucc ? '返回首页' : '再次提交'}}
+  </button>
+</view>
