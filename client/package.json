@@ -7,7 +7,7 @@
   "license": "MIT",
   "dependencies": {
     "lodash": "^4.17.15",
-    "underscore": "^1.9.1",
+    "underscore": "^1.12.1",
     "weui-miniprogram": "^0.2.1"
   }
 }
